@@ -8,7 +8,7 @@
             "url": "git@github.com:antonydenyer/lnug-cucumber.js-zombie.js.git"
         },
         "scripts": {
-            "test": "DEBUG_LEVEL=5 ./node_modules/cucumber.js/.bin/cucumber.js features/"
+            "test": "DEBUG_LEVEL=5 ./node_modules/cucumber/bin/cucumber.js features/"
         },
         "engines": {
             "node": "0.6"
