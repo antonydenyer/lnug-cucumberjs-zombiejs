@@ -1,4 +1,5 @@
 var Browser = require('zombie');
+var should = require('should');
 
 var World = function(callback) {
     this.browser = new Browser({

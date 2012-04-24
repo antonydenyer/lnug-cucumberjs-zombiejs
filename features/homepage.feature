@@ -1,9 +1,9 @@
 Feature: Homepage
-    In order to learn more about node
-    As a node user 
-    I want to see info about lnug events
+    In order to find music I like
+    As a music lover
+    I want be able to find music
 
-    Scenario: Visit the home page
+    Scenario: Search from the homepage
         Given I am on the homepage
         And I search for kylie 
-        Then I should see the lnug site in the search results
+        Then I should see the artist kylie in the search results
