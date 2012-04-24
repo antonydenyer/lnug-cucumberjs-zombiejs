@@ -4,6 +4,6 @@ Feature: Homepage
     I want to see info about lnug events
 
     Scenario: Visit the home page
-        Given I am on the lnug homepage
-        And I register for the next lnug event
-        Then I should be taken to eventbrite
+        Given I am on the homepage
+        And I search for kylie 
+        Then I should see the lnug site in the search results
